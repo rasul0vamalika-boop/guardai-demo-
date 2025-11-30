@@ -1,0 +1,31 @@
+/* Gradient Neon Startup Look */
+:root{
+  --bg:#07050a;
+  --card: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  --accent1:#7b61ff;
+  --accent2:#00ffd1;
+  --glass: rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,Arial;color:#e8f6ff;background:linear-gradient(135deg,#02020b 0%, #071026 50%, #0b0b18 100%);-webkit-font-smoothing:antialiased}
+.container{max-width:1100px;margin:0 auto;padding:28px}
+.hero{padding:56px 0;text-align:center;background:
+  radial-gradient(600px 200px at 10% 10%, rgba(123,97,255,0.08), transparent),
+  radial-gradient(500px 180px at 90% 90%, rgba(0,255,209,0.04), transparent);
+  border-bottom:1px solid rgba(255,255,255,0.03)}
+.hero h1{font-size:44px;margin:0;color:white;text-shadow:0 6px 30px rgba(123,97,255,0.12)}
+.tag{color:rgba(255,255,255,0.85);margin:10px 0 18px}
+.cta{display:inline-block;padding:12px 18px;border-radius:12px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#04061a;text-decoration:none;font-weight:600;box-shadow:0 6px 28px rgba(0,0,0,0.6)}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);padding:20px;margin:20px 0;border-radius:14px;backdrop-filter: blur(6px);box-shadow:0 8px 30px rgba(0,0,0,0.5)}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.member h4{margin:0 0 6px;color:linear-gradient(90deg,var(--accent1),var(--accent2))}
+.roadmap li{margin:10px 0}
+.stage{margin-top:10px;font-weight:600;color:rgba(255,255,255,0.85)}
+ul{padding-left:18px}
+.muted{color:rgba(255,255,255,0.5);font-size:14px}
+footer{padding:18px 0;text-align:center;color:rgba(255,255,255,0.45);border-top:1px solid rgba(255,255,255,0.02);margin-top:24px}
+
+/* Neon accents for headings */
+h2{position:relative}
+h2:after{content:"";position:absolute;left:0;bottom:-8px;width:56px;height:4px;border-radius:6px;background:linear-gradient(90deg,var(--accent1),var(--accent2))}
+@media(min-width:900px){.hero h1{font-size:64px}}

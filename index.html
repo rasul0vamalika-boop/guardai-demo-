@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GuardAI — раннее обнаружение угроз в школах (Demo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>GuardAI</h1>
+      <p class="tag">AI-платформа раннего обнаружения угроз для школ и вузов</p>
+      <a class="cta" href="#problem">Смотреть демо ↓</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="problem" class="card">
+      <h2>1. Проблема → Решение</h2>
+      <h3>Проблема</h3>
+      <p>Учебные заведения сталкиваются с реальными рисками: агрессия, буллинг, подозрительные предметы и онлайн-угрозы. Реагирование часто запаздывает, и информация рассеяна по разным каналам.</p>
+      <h3>Решение</h3>
+      <p><strong>GuardAI</strong> объединяет компьютерное зрение и NLP: анализ видео, сообщений и поведения — и выдаёт ранние оповещения, рекомендаций по инцидентам и панель для охраны и администрации.</p>
+    </section>
+
+    <section id="team" class="card">
+      <h2>2. Команда</h2>
+      <div class="team-grid">
+        <div class="member">
+          <h4>Malika Rasulova — Frontend Lead</h4>
+          <p>Роль: интерфейсы мониторинга, визуализация</p>
+          <p>Стек: React, Next.js, Tailwind</p>
+        </div>
+        <div class="member">
+          <h4>Rustam Isakov — ML Engineer</h4>
+          <p>Роль: CV & NLP, модели обнаружения</p>
+          <p>Стек: PyTorch, OpenCV, Hugging Face, OpenAI</p>
+        </div>
+        <div class="member">
+          <h4>Amina Karimova — Product & Research</h4>
+          <p>Роль: исследования, UX, связь с пилотными школами</p>
+          <p>Стек: Figma, Notion</p>
+        </div>
+        <div class="member">
+          <h4>Javlon Bek — Backend & DevOps</h4>
+          <p>Роль: API, развёртывание, infra</p>
+          <p>Стек: FastAPI, PostgreSQL, Docker</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="card">
+      <h2>3. Почему мы сможем это сделать</h2>
+      <ul>
+        <li>Опыт в CV и NLP: две ключевые компетенции для задачи.</li>
+        <li>Практический подход: быстрый прототип с реальными данными и пилотами.</li>
+        <li>Фокус на гибридной системе (камера + сообщения) — повышает точность.</li>
+      </ul>
+    </section>
+
+    <section id="roadmap" class="card">
+      <h2>4. Дорожная карта</h2>
+      <ol class="roadmap">
+        <li><strong>Idea:</strong> формирование гипотез и требований.</li>
+        <li><strong>Prototype:</strong> CV-детектор + NLP-скрипт (2–4 недели).</li>
+        <li><strong>MVP:</strong> интеграции камер и панель инцидентов (1–2 месяца).</li>
+        <li><strong>Launched:</strong> пилот в школе, улучшения, масштаб (3–6 мес).</li>
+      </ol>
+      <p class="stage"><strong>Текущий этап:</strong> Idea</p>
+    </section>
+
+    <section id="implementation" class="card">
+      <h2>5. Как реализуем</h2>
+      <h3>Основные шаги</h3>
+      <ol>
+        <li>Сбор данных и аннотация (видео, инциденты).</li>
+        <li>Модель CV: детекция объектов и аномалий (YOLOv8 / OpenCV).</li>
+        <li>NLP: классификация сообщений и определение риска (RoBERTa + GPT-4o).</li>
+        <li>Интеграция: камеры, Google Classroom, мессенджеры.</li>
+        <li>Панель: dashboard, алерты, история инцидентов.</li>
+      </ol>
+
+      <h3>Стек и ИИ-инструменты</h3>
+      <ul>
+        <li>Frontend: Next.js, Tailwind (демо — статичный HTML/CSS)</li>
+        <li>Backend: FastAPI, PostgreSQL, Redis</li>
+        <li>AI: PyTorch (CV), Hugging Face / OpenAI (NLP, GPT-4o), Pinecone (context)</li>
+        <li>Инфраструктура: Docker, Vercel (frontend), Render/Fly (backend)</li>
+      </ul>
+
+      <h3>Безопасность и этика</h3>
+      <p>Шифрование, согласие участников, минимизация распознавания лиц (фокус на аномалиях и объектах), политика удаления данных.</p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Контакт & Следующие шаги</h2>
+      <p>Готовы к прототипу: нужны 2 пилотные школы, видео-примеры и доступ к одной камере для теста.</p>
+      <p class="muted">Согласно требованиям AI500, убедитесь, что все участники зарегистрированы в боте AI500!. Документ задания загружен и учтён. fileciteturn0file0</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>GuardAI — Demo для AI500 Stage 1 • Deadline: 30 Nov</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
